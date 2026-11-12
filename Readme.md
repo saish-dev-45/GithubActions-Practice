@@ -1,7 +1,7 @@
-#Github Actions Practice
+Github Actions Practice
 
-##Concepts
+Concepts
 
-##1.Workflows
+1.Workflows
 
-To Create a github actions workflow you need to create a '/github/workflows'
+To Create a github actions workflow you need to create a '.github/workflows'
