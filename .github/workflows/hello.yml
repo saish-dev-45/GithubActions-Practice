@@ -1,0 +1,23 @@
+#workflow(No indentation required for naming the worflow)
+#Should Have a name
+name: Hello
+
+#On tells when the workflow should run
+on:
+  push
+#job
+#Should be inside the workflow
+#Job tells what the workflow should do
+#There cab be one or more jobs hence needs indentation
+jobs:
+  #First job give indentation
+  say-hello:
+    runs-on: ubuntu-latest
+#Steps
+#Should be inside the jobs
+    steps:
+      - name: Say Hello To everyone
+      run: 
+
+#Actions 
+#Should be inside the steps
